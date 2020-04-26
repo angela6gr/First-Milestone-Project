@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway&display=swap');
+
+body {
+    font-family: 'Montserrat Alternates';
+}
+
+
+/* ------------------------Navigation*/
+
+.nav {
+    background-color: #161819;
+}
+
+h2 {
+    text-decoration: none;
+    color: #8EF2FF;
+    letter-spacing: 4px;
+    
+}
+
+#logo{
+    text-transform: uppercase;
+    font-size: 150%;
+    margin-left: 40px;
+}
+
+#menu {
+   
+    font-size: 110%;
+    list-style-type: none;
+    
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 50px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: #8EF2FF;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #8EF2FF;
+}
+
+
+.active {
+   border-bottom: 1px solid #8EF2FF; 
+}
