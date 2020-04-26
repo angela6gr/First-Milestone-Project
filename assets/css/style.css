@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway|Zeyada&display=swap');
 
 body {
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* ------------------------special paddings/margins/text*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
 
 /* ------------------------Navigation*/
 
@@ -53,4 +58,32 @@ h2 {
 
 .nohover:hover {
         text-decoration: none;
+}
+
+
+/* ------------------------Footer*/
+
+h3 {
+  font-family: "Zeyada", sans-serif; 
+  color:  #8EF2FF;
+  padding-left: 40px;
+}
+
+footer {
+    background-color: #161819;
+    margin: 0;
+}
+
+.social-links {
+    margin-right: 50px;
+    text-align: right;
+}
+
+.social-links li a i {
+    padding-left: 15px;
+    color: #8EF2FF;
+}
+
+#footer-details {
+    padding-top: 20px;
 }
