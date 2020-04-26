@@ -15,8 +15,7 @@ h2 {
     text-decoration: none;
     color: #8EF2FF;
     letter-spacing: 4px;
-    
-}
+  }
 
 #logo{
     text-transform: uppercase;
@@ -24,11 +23,9 @@ h2 {
     margin-left: 40px;
 }
 
-#menu {
-   
+#menu { 
     font-size: 110%;
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 
 #logo, #menu {
@@ -37,8 +34,7 @@ h2 {
 
 #menu li {
     float: right;
-    margin-right: 50px;
-    
+    margin-right: 50px;    
 }
 
 #menu a {
@@ -53,4 +49,8 @@ h2 {
 
 .active {
    border-bottom: 1px solid #8EF2FF; 
+}
+
+.nohover:hover {
+        text-decoration: none;
 }
