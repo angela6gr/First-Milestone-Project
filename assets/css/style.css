@@ -60,6 +60,55 @@ h2 {
         text-decoration: none;
 }
 
+/* ------------------------Hero Image*/
+
+.hero-image {
+  width:100%;
+  height:700px;
+  background: url("../images/8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  /*background-attachment: fixed;*/
+}
+
+/* ------------------------About Me */
+
+.bg-about {
+  width:100%;
+  height:700px;
+  background: url("../images/aboutme.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  /*background-attachment: fixed;*/
+}
+
+
+/* ------------------------Projects bg */
+
+.bg-projects {
+  width:100%;
+  height:700px;
+  background: url("../images/lace.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  /*background-attachment: fixed;*/
+}
+
+/* ------------------------Contact bg Image*/
+
+.bg-contact {
+  width:100%;
+  height:700px;
+  background: url("../images/contact1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  /*background-attachment: fixed;*/
+}
+
 
 /* ------------------------Footer*/
 
