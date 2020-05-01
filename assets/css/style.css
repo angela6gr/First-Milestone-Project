@@ -136,11 +136,28 @@ position: relative;
 /*--------------------------------About Me page*/
 
 .my-photo {
+    background: url("../images/my-photo.jpg");
     height: 200px;
     width: 200px;
-    position: absolute;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
+.about-me-text p {
+    margin-top: 50px;
+}
+
+.who-i-am h2{
+    font-family: "Zeyada", sans-serif; 
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
 
 /* ------------------------Footer*/
 
@@ -148,6 +165,7 @@ h3 {
   font-family: "Zeyada", sans-serif; 
   color:  #8EF2FF;
   padding-left: 40px;
+  
 }
 
 footer {
