@@ -16,9 +16,9 @@ h1,h2,h3,h4 {
     background-color: #161819;
 }
 
-h2 {
+.nav h2 {
     text-decoration: none;
-    color: #8EF2FF;
+    color: #84DCCF;
     letter-spacing: 4px;
   }
 
@@ -44,16 +44,16 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: #8EF2FF;
+    color: #84DCCF;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #8EF2FF;
+    border-bottom: 1px solid #84DCCF;
 }
 
 
 .active {
-   border-bottom: 1px solid #8EF2FF; 
+   border-bottom: 1px solid #84DCCF; 
 }
 
 .nohover:hover {
@@ -64,7 +64,7 @@ h2 {
 
 .hero-image {
   width:100%;
-  height:600px;
+  height:auto;
   background: url("../images/8.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -75,10 +75,10 @@ h2 {
 
 .bg-about {
   width:100%;
-  height:600px;
+  height:auto;
   background: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size:cover;
   /*background-attachment: fixed;*/
 }
@@ -86,7 +86,7 @@ h2 {
 
 .bg-projects {
   width:100%;
-  height:600px;
+  height:auto;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -97,7 +97,7 @@ h2 {
 
 .bg-contact {
   width:100%;
-  height:600px;
+  height:auto;
   background: url("../images/contact1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -115,16 +115,18 @@ position: relative;
     margin-top: 50px;
 }
 
-.handmade {
-    margin-top: 50px;
-}
+
 
 .welcome-text {
   position: absolute;
   bottom: 20px;
-  left: 20px;}
+  right: 20px;}
 
-
+.welcome-text h1{
+    color: #EF626C;
+    font-family: "Zeyada", sans-serif;
+    font-size: 400%;
+}
 /*
 #welcome-text {
     color: #ffffff;
@@ -146,24 +148,63 @@ position: relative;
 
 }
 
-.about-me-text p {
-    margin-top: 50px;
+#about-me-text, #about-me-text p {
+    
+    letter-spacing: 4px;
+    color: #161819;
 }
 
-.who-i-am h2{
-    font-family: "Zeyada", sans-serif; 
+#about-me-text {
+    
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: rgba(255, 252, 254, 0.4);
+    padding: 10px;
+}
+
+.who-i-am h1{
+    font-family: "Zeyada", sans-serif;
+    color: #EF626C;
+    letter-spacing: 4px; 
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    
+    font-size: 400%;
 }
+
+/*--------------------------------Projects page*/
+
+#what-i-do-text, #what-i-do-text p {
+    
+    letter-spacing: 4px;
+    color: #161819;
+}
+
+#what-i-do-text {
+    
+    margin-left: 40px;
+    background-color: rgba(247, 237, 226, .5);
+    padding: 10px;
+}
+
+.what-i-do h1{
+    font-family: "Zeyada", sans-serif;
+    color: #EF626C;
+    letter-spacing: 4px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 400%;
+}
+
 
 /* ------------------------Footer*/
 
 h3 {
   font-family: "Zeyada", sans-serif; 
-  color:  #8EF2FF;
+  color:  #84DCCF;
   padding-left: 40px;
   
 }
@@ -180,7 +221,7 @@ footer {
 
 .social-links li a i {
     padding-left: 15px;
-    color: #8EF2FF;
+    color: #84DCCF;
 }
 
 #footer-details {
