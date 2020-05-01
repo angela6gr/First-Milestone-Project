@@ -60,11 +60,11 @@ h2 {
         text-decoration: none;
 }
 
-/* ------------------------Hero Image*/
+/* ------------------------------Background Images*/
 
 .hero-image {
   width:100%;
-  height:700px;
+  height:600px;
   background: url("../images/8.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -72,11 +72,10 @@ h2 {
   /*background-attachment: fixed;*/
 }
 
-/* ------------------------About Me */
 
 .bg-about {
   width:100%;
-  height:700px;
+  height:600px;
   background: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -85,11 +84,9 @@ h2 {
 }
 
 
-/* ------------------------Projects bg */
-
 .bg-projects {
   width:100%;
-  height:700px;
+  height:600px;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -97,16 +94,51 @@ h2 {
   /*background-attachment: fixed;*/
 }
 
-/* ------------------------Contact bg Image*/
 
 .bg-contact {
   width:100%;
-  height:700px;
+  height:600px;
   background: url("../images/contact1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   /*background-attachment: fixed;*/
+}
+
+/*----------------------------Welcome Page*/
+
+#container {
+position: relative;
+}
+
+.event {
+    margin-top: 50px;
+}
+
+.handmade {
+    margin-top: 50px;
+}
+
+.welcome-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;}
+
+
+/*
+#welcome-text {
+    color: #ffffff;
+ 
+    
+    background-color: rgba(95, 109, 131, .7);
+}*/
+
+/*--------------------------------About Me page*/
+
+.my-photo {
+    height: 200px;
+    width: 200px;
+    position: absolute;
 }
 
 
