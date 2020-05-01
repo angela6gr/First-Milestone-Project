@@ -4,6 +4,9 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+
+
+
 /* ------------------------special paddings/margins/text*/
 
 h1,h2,h3,h4 {
@@ -62,11 +65,15 @@ h1,h2,h3,h4 {
 
 /* ------------------------------Background Images*/
 
+
+
+
 .hero-image {
+  
   width:100%;
-  height:auto;
-  background: url("../images/8.jpg");
-  background-repeat: no-repeat;
+  min-height:600px; 
+ background-image: url("../images/8.jpg");
+ background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   /*background-attachment: fixed;*/
@@ -75,10 +82,10 @@ h1,h2,h3,h4 {
 
 .bg-about {
   width:100%;
-  height:auto;
-  background: url("../images/aboutme.jpg");
+  min-height:600px;
+  background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size:cover;
   /*background-attachment: fixed;*/
 }
@@ -86,7 +93,7 @@ h1,h2,h3,h4 {
 
 .bg-projects {
   width:100%;
-  height:auto;
+  min-height:600px;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -96,13 +103,13 @@ h1,h2,h3,h4 {
 
 
 .bg-contact {
-  width:100%;
-  height:auto;
   background: url("../images/contact1.jpg");
+  width:100%;
+  min-height:600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  /*background-attachment: fixed;*/
+  opacity: 0.8;
 }
 
 /*----------------------------Welcome Page*/
@@ -127,13 +134,7 @@ position: relative;
     font-family: "Zeyada", sans-serif;
     font-size: 400%;
 }
-/*
-#welcome-text {
-    color: #ffffff;
- 
-    
-    background-color: rgba(95, 109, 131, .7);
-}*/
+
 
 /*--------------------------------About Me page*/
 
@@ -150,7 +151,7 @@ position: relative;
 
 #about-me-text, #about-me-text p {
     
-    letter-spacing: 4px;
+   
     color: #161819;
 }
 
