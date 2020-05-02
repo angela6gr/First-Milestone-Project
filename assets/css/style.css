@@ -71,7 +71,7 @@ h1,h2,h3,h4 {
 .hero-image {
   
   width:100%;
-  min-height:600px; 
+  min-height:800px; 
  background-image: url("../images/8.jpg");
  background-repeat: no-repeat;
   background-position: center;
@@ -82,7 +82,7 @@ h1,h2,h3,h4 {
 
 .bg-about {
   width:100%;
-  min-height:600px;
+  min-height:800px;
   background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +93,7 @@ h1,h2,h3,h4 {
 
 .bg-projects {
   width:100%;
-  min-height:600px;
+  min-height:800px;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -105,7 +105,7 @@ h1,h2,h3,h4 {
 .bg-contact {
   background: url("../images/contact1.jpg");
   width:100%;
-  min-height:600px;
+  min-height:800px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -196,9 +196,57 @@ position: relative;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    
     font-size: 400%;
 }
+
+/*----------------------------Gallery*/
+
+
+.gallery {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.sailboats img {
+    max-width: 100%;
+    
+}
+
+.little-boxes img {
+    max-width: 100%;
+    
+}
+
+.candle img {
+    max-height: 100%;
+}
+
+.birthday img {
+    max-width: 100%;
+    
+}
+
+.easter-candles img {
+    max-height: 100%;
+    
+}
+
+.wedding-rings img {
+    max-width: 100%;
+    
+}
+
+.table-deco img {
+    max-width: 100%;
+    
+}
+
+
 
 
 /* ------------------------Footer*/
