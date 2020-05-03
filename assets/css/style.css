@@ -13,7 +13,7 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 
-/* ------------------------Navigation*/
+/* ----------------------------------Navigation*/
 
 .nav {
     background-color: #161819;
@@ -69,14 +69,13 @@ h1,h2,h3,h4 {
 
 
 .hero-image {
+    width:100%;
+    min-height:800px; 
+    background-image: url("../images/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
   
-  width:100%;
-  min-height:800px; 
- background-image: url("../images/8.jpg");
- background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  /*background-attachment: fixed;*/
 }
 
 
@@ -87,7 +86,6 @@ h1,h2,h3,h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  /*background-attachment: fixed;*/
 }
 
 
@@ -98,10 +96,8 @@ h1,h2,h3,h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  /*background-attachment: fixed;*/
 }
-
-
+  
 .bg-contact {
   background: url("../images/contact1.jpg");
   width:100%;
@@ -109,10 +105,9 @@ h1,h2,h3,h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  opacity: 0.8;
 }
 
-/*----------------------------Welcome Page*/
+/*------------------------------------Welcome Page*/
 
 #container {
 position: relative;
@@ -122,7 +117,10 @@ position: relative;
     margin-top: 50px;
 }
 
-
+.event h1 {
+    text-align: center;
+   font-size: 3.5rem;
+}
 
 .welcome-text {
   position: absolute;
@@ -132,11 +130,11 @@ position: relative;
 .welcome-text h1{
     color: #EF626C;
     font-family: "Zeyada", sans-serif;
-    font-size: 400%;
+    font-size: 5.5rem;
 }
 
 
-/*--------------------------------About Me page*/
+/*--------------------------------------About Me page*/
 
 .my-photo {
     background: url("../images/my-photo.jpg");
@@ -150,13 +148,12 @@ position: relative;
 }
 
 #about-me-text, #about-me-text p {
-    
-   
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
     color: #161819;
 }
 
 #about-me-text {
-    
     margin-right: 50px;
     margin-top: 50px;
     background-color: rgba(255, 252, 254, 0.4);
@@ -171,19 +168,19 @@ position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    font-size: 400%;
+    font-size: 5.5rem;
 }
 
-/*--------------------------------Projects page*/
+/*----------------------------------------Projects page*/
 
 #what-i-do-text, #what-i-do-text p {
-    
-    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
     color: #161819;
 }
 
 #what-i-do-text {
-    
+    margin-top: 50px;
     margin-left: 40px;
     background-color: rgba(247, 237, 226, .5);
     padding: 10px;
@@ -193,75 +190,132 @@ position: relative;
     font-family: "Zeyada", sans-serif;
     color: #EF626C;
     letter-spacing: 4px; 
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 400%;
+    font-size: 5.5rem;
 }
 
-/*----------------------------Gallery*/
+/*------------------------------------------Gallery*/
 
 
 .gallery {
     margin-top: 50px;
     margin-bottom: 30px;
+    margin-left: 50px;
     max-width: 1000px;
 }
 
 
-
 .sailboats img {
     max-width: 100%;
-   padding-right: 10px;
-   padding-bottom: 10px;
-   object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 .little-boxes img {
     max-width: 100%;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .candle img {
     max-height: 100%;
-    padding-right: 10px;
+    margin-right: 10px;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .birthday img {
     max-width: 100%;
     object-fit: cover;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
 }
 
 .easter-candles img {
     max-height: 100%;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .cage img {
     max-height: 100%;
-    padding-right: 10px;
-    padding-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .table-deco img {
     max-width: 100%;
-    padding-top: 10px;
-    object-fit: cover;   
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 5%;   
 }
 
+.gallery img:hover {
+    border: 3px solid #84DCCF;
+}
 
+/* ----------------------------------Contact Page*/
 
+.contact-me h1{
+    font-family: "Zeyada", sans-serif;
+    color: #EF626C;
+    letter-spacing: 4px; 
+    margin-top: 50px;
+    font-size: 5.5rem;
+    text-align: center;
+}
 
-/* ------------------------Footer*/
+/*---------------------------------------Form Styling*/
+
+form {
+    padding: 10px;
+    background-color: rgb(132, 220, 207, 0.4);
+    border-radius: 5%;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#name, #emailaddress, #yourmessage {
+  margin-top: 15px;  
+
+}
+
+.form-button{
+    margin-top: 10px;
+    color: #84DCCF;
+    background-color: #161819;
+    opacity: 0.8;
+    
+}
+
+/* ---------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 30%;
+    }
+}
+
+/* ---------------------------------------Footer*/
 
 h3 {
   font-family: "Zeyada", sans-serif; 
-  color:  #84DCCF;
+  color:  #84dccf;
   padding-left: 40px;
   
 }
