@@ -71,9 +71,9 @@ h1,h2,h3,h4 {
 .hero-image {
     width:100%;
     min-height:800px; 
-    background-image: url("../images/8.jpg");
+    background-image: url("../images/sea.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size:cover;
   
 }
@@ -84,7 +84,7 @@ h1,h2,h3,h4 {
   min-height:800px;
   background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size:cover;
 }
 
@@ -99,15 +99,15 @@ h1,h2,h3,h4 {
 }
   
 .bg-contact {
-  background: url("../images/contact1.jpg");
+  background: url("../images/contact.jpg");
   width:100%;
   min-height:800px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size:cover;
 }
 
-/*------------------------------------Welcome Page*/
+/*--------------------------------------------Welcome Page*/
 
 #container {
 position: relative;
@@ -119,7 +119,8 @@ position: relative;
 
 .event h1 {
     text-align: center;
-   font-size: 3.5rem;
+    font-size: 4vw;
+    word-spacing: 10px;
 }
 
 .welcome-text {
@@ -141,7 +142,7 @@ position: relative;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
 
@@ -151,6 +152,8 @@ position: relative;
     letter-spacing: 2px;
     font-family: "Raleway", sans-serif;
     color: #161819;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about-me-text {
@@ -158,6 +161,8 @@ position: relative;
     margin-top: 50px;
     background-color: rgba(255, 252, 254, 0.4);
     padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .who-i-am h1{
@@ -168,7 +173,8 @@ position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    font-size: 5.5rem;
+    font-size: 500%;
+    text-align: center;
 }
 
 /*----------------------------------------Projects page*/
@@ -177,13 +183,16 @@ position: relative;
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
     color: #161819;
+    text-align: center;
 }
 
 #what-i-do-text {
     margin-top: 50px;
     margin-left: 40px;
+    margin-right: 40px;
     background-color: rgba(247, 237, 226, .5);
     padding: 10px;
+    
 }
 
 .what-i-do h1{
@@ -193,7 +202,8 @@ position: relative;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 5.5rem;
+    font-size: 500%;
+    
 }
 
 /*------------------------------------------Gallery*/
@@ -202,8 +212,9 @@ position: relative;
 .gallery {
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    float: right;
     max-width: 1000px;
+    text-align: center;
 }
 
 
@@ -225,6 +236,7 @@ position: relative;
 .candle img {
     max-height: 100%;
     margin-right: 10px;
+    margin-bottom: 10px;
     object-fit: cover;
     border-radius: 5%;
 }
@@ -269,7 +281,7 @@ position: relative;
     color: #EF626C;
     letter-spacing: 4px; 
     margin-top: 50px;
-    font-size: 5.5rem;
+    font-size: 10vw;
     text-align: center;
 }
 
@@ -279,6 +291,7 @@ form {
     padding: 10px;
     background-color: rgb(132, 220, 207, 0.4);
     border-radius: 5%;
+    margin-bottom: 20px;
 }
 
 .center-form {
