@@ -63,9 +63,7 @@ h1,h2,h3,h4 {
         text-decoration: none;
 }
 
-/* ------------------------------Background Images*/
-
-
+/* ---------------------------------------Background Images*/
 
 
 .hero-image {
@@ -107,7 +105,7 @@ h1,h2,h3,h4 {
   background-size:cover;
 }
 
-/*--------------------------------------------Welcome Page*/
+/*-------------------------------------------------Welcome Page*/
 
 #container {
 position: relative;
@@ -126,7 +124,8 @@ position: relative;
 .welcome-text {
   position: absolute;
   bottom: 20px;
-  right: 20px;}
+  right: 20px;
+}
 
 .welcome-text h1{
     color: #EF626C;
@@ -145,7 +144,8 @@ position: relative;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #about-me-text, #about-me-text p {
@@ -177,6 +177,7 @@ position: relative;
     text-align: center;
 }
 
+
 /*----------------------------------------Projects page*/
 
 #what-i-do-text, #what-i-do-text p {
@@ -186,8 +187,8 @@ position: relative;
     text-align: center;
 }
 
+
 #what-i-do-text {
-    margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: rgba(247, 237, 226, .5);
@@ -200,19 +201,18 @@ position: relative;
     color: #EF626C;
     letter-spacing: 4px; 
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 500%;
-    
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 5.5rem;
 }
 
-/*------------------------------------------Gallery*/
+
+
+/*---------------------------------------------Gallery*/
 
 
 .gallery {
-    margin-top: 50px;
     margin-bottom: 30px;
-    float: right;
     max-width: 1000px;
     text-align: center;
 }
@@ -225,6 +225,7 @@ position: relative;
     object-fit: cover;
     border-radius: 5%;
 }
+
 
 .little-boxes img {
     max-width: 100%;
@@ -241,6 +242,7 @@ position: relative;
     border-radius: 5%;
 }
 
+
 .birthday img {
     max-width: 100%;
     object-fit: cover;
@@ -248,12 +250,14 @@ position: relative;
     border-radius: 5%;
 }
 
+
 .easter-candles img {
     max-height: 100%;
     margin-bottom: 10px;
     object-fit: cover;
     border-radius: 5%;
 }
+
 
 .cage img {
     max-height: 100%;
@@ -263,6 +267,7 @@ position: relative;
     border-radius: 5%;
 }
 
+
 .table-deco img {
     max-width: 100%;
     margin-top: 10px;
@@ -270,11 +275,13 @@ position: relative;
     border-radius: 5%;   
 }
 
+
 .gallery img:hover {
-    border: 3px solid #84DCCF;
+    border: 2px solid#EF626C;
 }
 
-/* ----------------------------------Contact Page*/
+
+/* ------------------------------------------Contact Page*/
 
 .contact-me h1{
     font-family: "Zeyada", sans-serif;
@@ -294,11 +301,13 @@ form {
     margin-bottom: 20px;
 }
 
+
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 30%;
+    }
 
 #name, #emailaddress, #yourmessage {
   margin-top: 15px;  
@@ -313,23 +322,14 @@ form {
     
 }
 
-/* ---------------------------------------Media Queries*/
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 30%;
-    }
-}
 
 /* ---------------------------------------Footer*/
 
 h3 {
   font-family: "Zeyada", sans-serif; 
   color:  #84dccf;
-  padding-left: 40px;
+  margin-left: 40px;
   
 }
 
@@ -350,4 +350,371 @@ footer {
 
 #footer-details {
     padding-top: 20px;
+}
+
+
+/* ---------------------------------------------------------Media Queries*/
+
+
+@media screen and (max-width: 1200px){
+
+.event h1 {
+    font-size:250%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.center-form {
+    max-width: 40%;
+}
+
+#what-i-do-text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.what-i-do h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5rem;
+}
+
+
+}
+
+@media screen and (max-width: 992px){
+
+#logo{
+    text-align: center;
+    margin-left: 0;
+}
+
+.welcome-text h1{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.welcome-text{
+  text-align: center;  /*--------------------------------------------correct position*/
+}
+
+.event h1 {
+    text-align: center;
+    font-size:250%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.my-photo {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+#about-me-text {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.who-i-am h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.birthday, .table-deco img {/*------------------------------fix margin img table*/
+    margin-top: 40px;
+}
+
+.candle img {
+    margin: 0;
+}
+
+#what-i-do-text {
+    margin-top: 20px;
+}
+
+.what-i-do h1 {
+   font-size: 5rem; 
+   margin-top: 50px;
+   margin-bottom: 0;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.contact-me h1 {
+    margin-bottom: 30px;
+}
+
+.center-form {
+    max-width: 50%;
+}
+
+
+}
+
+@media screen and (max-width: 768px){
+
+#logo{
+    font-size: 150%;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#menu { 
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;   
+}
+
+#logo, #menu {
+    line-height: 30px;
+}
+
+#menu li {
+    margin: 20px;    
+}
+
+.event {
+    margin-top: 30px;
+}
+
+.event h1 {
+    text-align: center;
+    font-size:200%;
+}
+
+.welcome-text {
+  bottom: 30px;
+}
+
+.welcome-text h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{
+  margin-left: 20px;
+}
+ 
+.social-links {
+    margin-right: 20px;
+}
+
+.my-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+#about-me-text {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.who-i-am h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#what-i-do-text {
+    margin-top: 20px;
+}
+
+.what-i-do h1{
+    font-size: 4.5rem;
+}
+
+ .gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+
+.contact-me h1{
+    font-size: 4rem;
+}
+
+form {
+    margin-bottom:0;
+    margin-top: 30px;
+}
+
+.center-form {
+    max-width: 80%;
+}
+
+}
+
+
+@media screen and (max-width: 576px){
+
+.hero-image, .bg-about, .bg-contact, .bg-projects {
+    min-height:450px; 
+} 
+
+#what-i-do-text, #what-i-do-text p {
+    letter-spacing: normal;
+}
+
+#what-i-do-text {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.what-i-do h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 450%;
+}
+
+.gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sailboats, .little-boxes, .birthday, .table-deco{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .easter-candles, .cage {
+    max-height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.candle {
+    max-height:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+  text-align: center; 
+  margin: 0px;
+}
+ 
+.social-links {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav h2 {
+    letter-spacing: 2px;
+}
+
+#logo{
+    font-size: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#menu { 
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#logo, #menu {
+    line-height: 30px;
+}
+
+#menu li {
+    
+    margin: 10px;    
+}
+
+.event {
+    margin-top: 10px;
+}
+
+.event h1 {
+    text-align: center;
+    font-size:150%;
+}
+
+.welcome-text {
+  position: absolute;
+  bottom: 10px;
+}
+
+.welcome-text h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.my-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-position: center;
+    background-size: contain;
+}
+
+#about-me-text, #about-me-text p {
+    letter-spacing: 1px;
+}
+
+#about-me-text {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.who-i-am h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-me h1{
+    letter-spacing: 2px; 
+    margin-top: 30px;
+    font-size: 3rem;
+}
+
+.center-form {
+    padding-top: 5px;
+    max-width: 90%;
+}
+
+
 }
