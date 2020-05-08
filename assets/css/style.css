@@ -5,8 +5,6 @@ body {
 }
 
 
-
-
 /* ------------------------special paddings/margins/text*/
 
 h1,h2,h3,h4 {
@@ -17,6 +15,10 @@ h1,h2,h3,h4 {
 
 .nav {
     background-color: #161819;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 75px;
 }
 
 .nav h2 {
@@ -33,16 +35,18 @@ h1,h2,h3,h4 {
 
 #menu { 
     font-size: 110%;
-    list-style-type: none;    
+    list-style-type: none; 
+    text-align: right; 
+    margin-right: 50px;  
 }
 
-#logo, #menu {
-    line-height: 75px;
+ul {
+    margin-bottom: 0;
 }
 
 #menu li {
-    float: right;
-    margin-right: 50px;    
+    display: inline-block;
+    margin-left: 50px;
 }
 
 #menu a {
@@ -288,7 +292,7 @@ position: relative;
     color: #EF626C;
     letter-spacing: 4px; 
     margin-top: 50px;
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
 }
 
@@ -298,7 +302,7 @@ form {
     padding: 10px;
     background-color: rgb(132, 220, 207, 0.4);
     border-radius: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
