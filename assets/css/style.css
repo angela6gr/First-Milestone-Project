@@ -70,9 +70,10 @@ ul {
 /* ---------------------------------------Background Images*/
 
 
+
 .hero-image {
     width:100%;
-    min-height:700px;
+    min-height:750px;
     background-image: url("../images/sea.jpg");
     background-repeat: no-repeat;
     background-position: right;
@@ -82,7 +83,7 @@ ul {
 
 .bg-about {
   width:100%;
-  min-height:700px;
+  min-height:750px;
   background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
   background-position: left;
@@ -112,6 +113,7 @@ ul {
 
 #container {
 position: relative;
+
 }
 
 .event {
@@ -122,12 +124,11 @@ position: relative;
     text-align: center;
     font-size: 4vw;
     word-spacing: 10px;
-    
 }
 
 .welcome-text {
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
 }
 
@@ -167,7 +168,6 @@ position: relative;
     background-color: rgba(255, 252, 254, 0.4);
     padding: 10px;
     margin-left: 40px;
-    margin-right: 40px;
 }
 
 .who-i-am h1{
@@ -314,7 +314,6 @@ form {
 
 
 .center-form {
-        padding-top: 10px;
         min-height: 240px;
         margin: 0 auto;
         max-width: 30%;
@@ -341,7 +340,6 @@ h3 {
   font-family: "Zeyada", sans-serif; 
   color:  #84dccf;
   margin-left: 40px;
-  
 }
 
 footer {
@@ -364,6 +362,7 @@ footer {
 
 #footer-details {
     padding-top: 20px;
+  
 }
 
 
@@ -371,6 +370,19 @@ footer {
 
 
 @media screen and (max-width: 1200px){
+
+#menu {
+    margin-right: 30px;
+}
+
+#menu li {
+    margin-left: 30px;
+}
+
+
+.hero-image, .bg-about {
+    min-height:700px;
+}
 
 .event h1 {
     font-size:250%;
@@ -382,9 +394,13 @@ footer {
     max-width: 40%;
 }
 
+.who-i-am h1 {
+    margin-top: 50px;
+}
+
 #what-i-do-text {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .what-i-do h1{
@@ -395,14 +411,42 @@ footer {
     font-size: 5rem;
 }
 
+.gallery{
+    padding: 0;
+}
+
+.gallery img{
+    padding: 5px;
+}
+
+#footer-details{
+  padding-bottom: 20px;
+}
+
 
 }
 
+
 @media screen and (max-width: 992px){
+
+ .hero-image, .bg-about {
+    min-height:600px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
 
 #logo{
     text-align: center;
+    margin-top: 20px;
     margin-left: 0;
+}
+
+#menu { 
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;   
 }
 
 .welcome-text h1{
@@ -489,12 +533,7 @@ form {
     padding-top: 20px;
 }
 
-#menu { 
-    font-size: 100%;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 10px;   
-}
+
 
 #logo, #menu {
     line-height: 30px;
