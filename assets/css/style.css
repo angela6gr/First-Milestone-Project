@@ -11,6 +11,12 @@ h1,h2,h3,h4 {
     margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 /* ----------------------------------Navigation*/
 
 .nav {
@@ -69,21 +75,23 @@ ul {
 
 /* ---------------------------------------Background Images*/
 
-
+#container {
+position: relative;
+}
 
 .hero-image {
     width:100%;
-    min-height:900px;
+    height: 90vh;
     background-image: url("../images/sea.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right;
     background-size:cover;
 }
 
 
 .bg-about {
   width:100%;
-  min-height:900px;
+  min-height:90vh;
   background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
   background-position: left;
@@ -93,7 +101,7 @@ ul {
 
 .bg-projects {
   width:100%;
-  min-height:700px;
+  min-height:90vh;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -103,18 +111,13 @@ ul {
 .bg-contact {
     background: url("../images/contact.jpg");
     width:100%;
-    min-height:900px;
+    min-height:90vh;
     background-repeat: no-repeat;
     background-position: right;
     background-size:cover;
 }
 
 /*-------------------------------------------------Welcome Page*/
-
-#container {
-position: relative;
-
-}
 
 .event {
     margin-top: 50px;
@@ -128,8 +131,8 @@ position: relative;
 
 .welcome-text {
   position: absolute;
-  bottom: 60px;
-  right: 20px;
+  bottom: 15vh;
+  width: 100%;
 }
 
 .welcome-text h1{
@@ -137,7 +140,9 @@ position: relative;
     font-family: "Zeyada", sans-serif;
     font-size: 5.5rem;
     text-shadow: 0 0 5px #161819;
+    text-align: center;
 }
+
 
 
 /*--------------------------------------About Me page*/
@@ -168,6 +173,7 @@ position: relative;
     background-color: rgba(255, 252, 254, 0.4);
     padding: 10px;
     margin-left: 40px;
+    margin-bottom: 15vh;
 }
 
 .who-i-am h1{
@@ -309,19 +315,18 @@ form {
     padding: 10px;
     background-color: rgb(132, 220, 207, 0.4);
     border-radius: 5%;
-    margin-bottom: 80px;
+    margin-bottom: 15vh;
 }
 
 
 .center-form {
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 30%;
-    }
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 30%;
+}
 
 #name, #emailaddress, #yourmessage {
   margin-top: 15px;  
-
 }
 
 .form-button{
@@ -329,7 +334,6 @@ form {
     color: #84DCCF;
     background-color: #161819;
     opacity: 0.8;
-    
 }
 
 
@@ -379,11 +383,6 @@ footer {
     margin-left: 30px;
 }
 
-
-.hero-image, .bg-about, .bg-contact {
-    min-height:700px;
-}
-
 .event h1 {
     font-size:250%;
     margin-left: 30px;
@@ -392,6 +391,10 @@ footer {
 
 .center-form {
     max-width: 40%;
+}
+
+#about-me-text{
+    margin-top: 20px;
 }
 
 .who-i-am h1 {
@@ -429,10 +432,6 @@ footer {
 
 @media screen and (max-width: 992px){
 
- .hero-image, .bg-about {
-    min-height:600px;
-}
-
 ul {
     padding-inline-start: 0;
 }
@@ -452,10 +451,6 @@ ul {
 .welcome-text h1{
     font-size: 4.5rem;
     text-align: center;
-}
-
-.welcome-text{
-  text-align: center;  /*--------------------------------------------correct position*/
 }
 
 .event h1 {
@@ -526,11 +521,6 @@ form {
 
 @media screen and (max-width: 768px){
 
-.hero-image, .bg-about, .bg-contact {
-    min-height:850px;
-}
-
-
 #logo{
     font-size: 150%;
     margin: 0;
@@ -554,10 +544,6 @@ form {
 .event h1 {
     text-align: center;
     font-size:200%;
-}
-
-.welcome-text {
-  bottom: 30px;
 }
 
 .welcome-text h1{
@@ -616,11 +602,6 @@ h3{
     font-size: 4rem;
 }
 
-form {
-    margin-bottom:0;
-    margin-top: 30px;
-}
-
 .center-form {
     max-width: 80%;
 }
@@ -629,10 +610,6 @@ form {
 
 
 @media screen and (max-width: 576px){
-
-.hero-image, .bg-about, .bg-contact, .bg-projects {
-    min-height:500px; 
-} 
 
 #what-i-do-text, #what-i-do-text p {
     letter-spacing: normal;
@@ -664,7 +641,7 @@ form {
     margin-right: auto;
 }
 
- .easter-candles, .cage {
+.easter-candles, .cage {
     max-height: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -711,15 +688,8 @@ form {
     font-size:120%;
 }
 
-.welcome-text {
-  position: absolute;
-  bottom: 15px;
-  right: 0;
-}
-
 .welcome-text h1{
     font-size: 2.5rem;
-    text-align: center;
 }
 
 .my-photo {
@@ -731,18 +701,15 @@ form {
     background-size: contain;
 }
 
-#about-me-text, #about-me-text p {
+#about-me-text p {
     letter-spacing: 1px;
     font-size:0.8rem;
-    
 }
 
 #about-me-text {
-    margin-bottom: 100px;
     margin-right: 10px;
     margin-left: 10px;
     margin-top:10px;
-    
 }
 
 .who-i-am h1{
@@ -775,14 +742,12 @@ h3 {
    margin-left: 0;
 }
 
-
 .social-links li a i {
     padding-left: 0;
 }
 
 #footer-details {
     padding: 10px;
-
 }
 
 h3{
