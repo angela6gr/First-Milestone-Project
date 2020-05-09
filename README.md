@@ -47,8 +47,9 @@ In the future I would like to link the form to send an email to my company's ema
 
 ## Testing
 
-The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).
+The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).  
 The CSS code has been validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+The responsiveness of the website was tested using the [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 All the links in this wesite, except those in the navigation bar, will open in a new tab, so that the user doesn't leave the page when clicking them. The have been tested and they lead to the correct dectination. 
 
