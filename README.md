@@ -43,6 +43,36 @@ In the future I would like to link the form to send an email to my company's ema
 - Bootstrap
 - Google Fonts
 - Font Awesome
+- Adobe XD
+
+## Testing
+
+The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).
+The CSS code has been validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+All the links in this wesite, except those in the navigation bar, will open in a new tab, so that the user doesn't leave the page when clicking them. The have been tested and they lead to the correct dectination. 
+
+## Deployment
+
+The website was developed using Gitpod and GitHub and deployed using GitHub Pages.
+
+## Credits
+
+All the photos used in the website are either taken by my or used with the permission of the photographer.
+All the text was written by me. 
+
+The following websites and their tutorials were the main source of help throughout the coding of my page:
+- [W3Schools Online Web Tutorials](https://www.w3schools.com/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
+I was also inspired and helped by the course material of the Code Intitute and especially the mini project creating an online resume.
+
+Special thanks to my sister Christina Kyratzidou for her time looking over my design, font and photo selection and above all to my mentor Maranatha Ilesanmi for his time, his guidance and his advice.
+
+
+
+
 
 
 
