@@ -41,7 +41,7 @@ In the future I would like to link the form to send an email to my company's ema
 ## UX
 
 The website aims to capture the attention of potential clients, by focusing more on the images rather than the text, as the field of event decoration itself creates emotion-provoking designs and visualisation. 
-Adobe XD was used for the wireframe of the website. You can view it here: [Mockup]
+Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
 
 
 ## Technologies Used
