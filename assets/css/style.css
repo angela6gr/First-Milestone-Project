@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway|Zeyada&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway|Zeyada&display=swap");
 
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
-
 
 /* ------------------------special paddings/margins/text*/
 
-h1,h2,h3,h4 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 html,
@@ -17,116 +19,116 @@ body {
   margin: 0;
 }
 
+.row {
+  margin: 0;
+}
 /* ----------------------------------Navigation*/
 
 .nav {
-    background-color: #161819;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 75px;
+  background-color: #161819;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 75px;
 }
 
 .nav h2 {
-    text-decoration: none;
-    color: #84DCCF;
-    letter-spacing: 4px;
-  }
-
-#logo{
-    text-transform: uppercase;
-    font-size: 150%;
-    margin-left: 40px;
+  text-decoration: none;
+  color: #84dccf;
+  letter-spacing: 4px;
 }
 
-#menu { 
-    font-size: 110%;
-    list-style-type: none; 
-    text-align: right; 
-    margin-right: 50px;  
+#logo {
+  text-transform: uppercase;
+  font-size: 150%;
+  margin-left: 40px;
+}
+
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  text-align: right;
+  margin-right: 50px;
 }
 
 ul {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #menu li {
-    display: inline-block;
-    margin-left: 50px;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 #menu a {
-    text-decoration: none;
-    color: #84DCCF;
+  text-decoration: none;
+  color: #84dccf;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #84DCCF;
+  border-bottom: 1px solid #84dccf;
 }
 
-
 .active {
-   border-bottom: 1px solid #84DCCF; 
+  border-bottom: 1px solid #84dccf;
 }
 
 .nohover:hover {
-        text-decoration: none;
+  text-decoration: none;
 }
 
 /* ---------------------------------------Background Images*/
 
 #container {
-position: relative;
+  position: relative;
 }
 
 .hero-image {
-    width:100%;
-    height: 90vh;
-    background-image: url("../images/sea.jpg");
-    background-repeat: no-repeat;
-    background-position:right;
-    background-size:cover;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../images/sea.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
 
-
 .bg-about {
-  width:100%;
-  min-height:90vh;
+  width: 100%;
+  min-height: 90vh;
   background-image: url("../images/aboutme.jpg");
   background-repeat: no-repeat;
   background-position: left;
-  background-size:cover;
+  background-size: cover;
 }
 
-
 .bg-projects {
-  width:100%;
-  min-height:90vh;
+  width: 100%;
+  min-height: 90vh;
   background: url("../images/lace.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
-  
+
 .bg-contact {
-    background: url("../images/contact.jpg");
-    width:100%;
-    min-height:90vh;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size:cover;
+  background: url("../images/contact.jpg");
+  width: 100%;
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
 
 /*-------------------------------------------------Welcome Page*/
 
 .event {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .event h1 {
-    text-align: center;
-    font-size: 4vw;
-    word-spacing: 10px;
+  text-align: center;
+  font-size: 4vw;
+  word-spacing: 10px;
 }
 
 .welcome-text {
@@ -135,632 +137,610 @@ position: relative;
   width: 100%;
 }
 
-.welcome-text h1{
-    color: #EF626C;
-    font-family: "Zeyada", sans-serif;
-    font-size: 5.5rem;
-    text-shadow: 0 0 5px #161819;
-    text-align: center;
+.welcome-text h1 {
+  color: #ef626c;
+  font-family: "Zeyada", sans-serif;
+  font-size: 5.5rem;
+  text-shadow: 0 0 5px #161819;
+  text-align: center;
 }
-
-
 
 /*--------------------------------------About Me page*/
 
 .my-photo {
-    background: url("../images/my-photo.jpg");
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("../images/my-photo.jpg");
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#about-me-text, #about-me-text p {
-    letter-spacing: 2px;
-    font-family: "Raleway", sans-serif;
-    color: #161819;
-    margin-left: auto;
-    margin-right: auto;
+#about-me-text,
+#about-me-text p {
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+  color: #161819;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about-me-text {
-    margin-right: 50px;
-    margin-top: 50px;
-    background-color: rgba(255, 252, 254, 0.4);
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 15vh;
+  margin-right: 50px;
+  margin-top: 50px;
+  background-color: rgba(255, 252, 254, 0.4);
+  padding: 10px;
+  margin-left: 40px;
+  margin-bottom: 15vh;
 }
 
-.who-i-am h1{
-    font-family: "Zeyada", sans-serif;
-    color: #EF626C;
-    letter-spacing: 4px; 
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    font-size: 500%;
-    text-align: center;
-    text-shadow: 0 0 5px #161819;
+.who-i-am h1 {
+  font-family: "Zeyada", sans-serif;
+  color: #ef626c;
+  letter-spacing: 4px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 500%;
+  text-align: center;
+  text-shadow: 0 0 5px #161819;
 }
-
 
 /*----------------------------------------Projects page*/
 
-#what-i-do-text, #what-i-do-text p {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 2px;
-    color: #161819;
-    text-align: center;
+#what-i-do-text,
+#what-i-do-text p {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  color: #161819;
+  text-align: center;
 }
 
 .projects {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #what-i-do-text {
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: rgba(247, 237, 226, .5);
-    padding: 10px;
-    
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgba(247, 237, 226, 0.5);
+  padding: 10px;
 }
 
-.what-i-do h1{
-    font-family: "Zeyada", sans-serif;
-    color: #EF626C;
-    letter-spacing: 4px; 
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 5.5rem;
-    text-shadow: 0 0 5px #161819;
+.what-i-do h1 {
+  font-family: "Zeyada", sans-serif;
+  color: #ef626c;
+  letter-spacing: 4px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 5.5rem;
+  text-shadow: 0 0 5px #161819;
 }
-
-
 
 /*---------------------------------------------Gallery*/
 
-
 .gallery {
-    margin-bottom: 30px;
-    max-width: 1000px;
-    text-align: center;
+  margin-bottom: 30px;
+  max-width: 1000px;
+  text-align: center;
 }
-
 
 .sailboats img {
-    max-width: 100%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border-radius: 5%;
+  max-width: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
-
 .little-boxes img {
-    max-width: 100%;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border-radius: 5%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
 .candle img {
-    max-height: 100%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border-radius: 5%;
+  max-height: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
-
 
 .birthday img {
-    max-width: 100%;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border-radius: 5%;
+  max-width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5%;
 }
-
 
 .easter-candles img {
-    max-height: 100%;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border-radius: 5%;
+  max-height: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
-
 
 .cage img {
-    max-height: 100%;
-    margin-right: 10px;
-    margin-top: 10px;
-    object-fit: cover;
-    border-radius: 5%;
+  max-height: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
-
 
 .table-deco img {
-    max-width: 100%;
-    margin-top: 10px;
-    object-fit: cover;
-    border-radius: 5%;   
+  max-width: 100%;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 5%;
 }
-
 
 .gallery img:hover {
-    border: 2px solid#EF626C;
+  border: 2px solid#EF626C;
 }
-
 
 /* ------------------------------------------Contact Page*/
 
-.contact-me h1{
-    font-family: "Zeyada", sans-serif;
-    color: #EF626C;
-    letter-spacing: 4px; 
-    margin-top: 40px;
-    font-size: 8vw;
-    text-align: center;
-    text-shadow: 0 0 5px #161819;
+.contact-me h1 {
+  font-family: "Zeyada", sans-serif;
+  color: #ef626c;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  font-size: 8vw;
+  text-align: center;
+  text-shadow: 0 0 5px #161819;
 }
 
 /*---------------------------------------Form Styling*/
 
 form {
-    padding: 10px;
-    background-color: rgb(132, 220, 207, 0.4);
-    border-radius: 5%;
-    margin-bottom: 15vh;
+  padding: 10px;
+  background-color: rgb(132, 220, 207, 0.4);
+  border-radius: 5%;
+  margin-bottom: 15vh;
 }
-
 
 .center-form {
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 30%;
+  min-height: 240px;
+  margin: 0 auto;
+  max-width: 30%;
 }
 
-#name, #emailaddress, #yourmessage {
-  margin-top: 15px;  
+#name,
+#emailaddress,
+#yourmessage {
+  margin-top: 15px;
 }
 
-.form-button{
-    margin-top: 10px;
-    color: #84DCCF;
-    background-color: #161819;
-    opacity: 0.8;
+.form-button {
+  margin-top: 10px;
+  color: #84dccf;
+  background-color: #161819;
+  opacity: 0.8;
 }
 
-
+.btn:hover {
+  color: #ef626c;
+  text-decoration: none;
+}
 
 /* ---------------------------------------Footer*/
 
 h3 {
-  font-family: "Zeyada", sans-serif; 
-  color:  #84dccf;
+  font-family: "Zeyada", sans-serif;
+  color: #84dccf;
   margin-left: 40px;
 }
 
 footer {
-    background-color: #161819;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  background-color: #161819;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-links {
-    margin-right: 50px;
-    text-align: right;
+  margin-right: 50px;
+  text-align: right;
 }
 
 .social-links li a i {
-    padding-left: 15px;
-    color: #84DCCF;
+  padding-left: 15px;
+  color: #84dccf;
 }
 
 #footer-details {
-    padding-top: 20px;
-  
+  padding-top: 20px;
 }
-
 
 /* ---------------------------------------------------------Media Queries*/
 
-
-@media screen and (max-width: 1280px){
-
-#menu {
+@media screen and (max-width: 1280px) {
+  #menu {
     margin-right: 30px;
-}
+  }
 
-#menu li {
+  #menu li {
     margin-left: 30px;
-}
+  }
 
-.event h1 {
-    font-size:250%;
+  .event h1 {
+    font-size: 250%;
     margin-left: 30px;
     margin-right: 30px;
-}
+  }
 
-.center-form {
+  .center-form {
     max-width: 40%;
-}
+  }
 
-#about-me-text{
+  #about-me-text {
     margin-top: 20px;
-}
+  }
 
-.who-i-am h1 {
+  .who-i-am h1 {
     margin-top: 50px;
-}
+  }
 
-#what-i-do-text {
+  #what-i-do-text {
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
 
-.what-i-do h1{
-    letter-spacing: 2px; 
+  .what-i-do h1 {
+    letter-spacing: 2px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     font-size: 5rem;
-}
+  }
 
-.gallery{
+  .gallery {
     padding: 0;
-}
+  }
 
-.gallery img{
+  .gallery img {
     padding: 5px;
+  }
+
+  #footer-details {
+    padding-bottom: 20px;
+  }
 }
 
-#footer-details{
-  padding-bottom: 20px;
-}
-
-
-}
-
-
-@media screen and (max-width: 992px){
-
-ul {
+@media screen and (max-width: 992px) {
+  ul {
     padding-inline-start: 0;
-}
+  }
 
-#logo{
+  #logo {
     text-align: center;
     margin-top: 20px;
     margin-left: 0;
-}
+  }
 
-#menu { 
+  #menu {
     font-size: 100%;
     text-align: center;
-    margin-top: 10px;   
-}
+    margin-top: 10px;
+  }
 
-.welcome-text h1{
+  .welcome-text h1 {
     font-size: 4.5rem;
     text-align: center;
-}
+  }
 
-.event h1 {
+  .event h1 {
     text-align: center;
-    font-size:250%;
+    font-size: 250%;
     margin-left: 30px;
     margin-right: 30px;
-}
+  }
 
-.my-photo {
+  .my-photo {
     height: 180px;
     width: 180px;
     border-radius: 50%;
     margin-top: 30px;
     background-position: center;
     background-size: contain;
-}
+  }
 
-
-#about-me-text {
+  #about-me-text {
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
-}
+  }
 
-.who-i-am h1{
-    letter-spacing: 2px; 
+  .who-i-am h1 {
+    letter-spacing: 2px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     font-size: 4.5rem;
     text-align: center;
-}
+  }
 
-.birthday, .table-deco img {/*------------------------------fix margin img table*/
+  .birthday,
+  .table-deco img {
     margin-top: 40px;
-}
+  }
 
-.candle img {
+  .candle img {
     margin: 0;
-}
+  }
 
-#what-i-do-text {
+  #what-i-do-text {
     margin-top: 20px;
-}
+  }
 
-.what-i-do h1 {
-   font-size: 5rem; 
-   margin-top: 50px;
-   margin-bottom: 0;
-}
-
-form {
+  .what-i-do h1 {
+    font-size: 5rem;
+    margin-top: 50px;
     margin-bottom: 0;
-}
+  }
 
-.contact-me h1 {
+  form {
+    margin-bottom: 0;
+  }
+
+  .contact-me h1 {
     margin-bottom: 30px;
-}
+  }
 
-.center-form {
+  .center-form {
     max-width: 50%;
+  }
 }
 
-
-}
-
-@media screen and (max-width: 768px){
-
-#logo{
+@media screen and (max-width: 768px) {
+  #logo {
     font-size: 150%;
     margin: 0;
     text-align: center;
     padding-top: 20px;
-}
+  }
 
-
-#logo, #menu {
+  #logo,
+  #menu {
     line-height: 30px;
-}
+  }
 
-#menu li {
-    margin: 20px;    
-}
+  #menu li {
+    margin: 20px;
+  }
 
-.event {
+  .event {
     margin-top: 30px;
-}
+  }
 
-.event h1 {
+  .event h1 {
     text-align: center;
-    font-size:200%;
-}
+    font-size: 200%;
+  }
 
-.welcome-text h1{
+  .welcome-text h1 {
     font-size: 4rem;
     text-align: center;
-}
+  }
 
-h3{
-  margin-left: 20px;
-}
- 
-.social-links {
+  h3 {
+    margin-left: 20px;
+  }
+
+  .social-links {
     margin-right: 20px;
-}
+  }
 
-.my-photo {
+  .my-photo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     margin-top: 30px;
     background-position: center;
     background-size: contain;
-}
+  }
 
-
-#about-me-text {
+  #about-me-text {
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
-}
+  }
 
-.who-i-am h1{
-    letter-spacing: 2px; 
+  .who-i-am h1 {
+    letter-spacing: 2px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     font-size: 4rem;
     text-align: center;
-}
+  }
 
-#what-i-do-text {
+  #what-i-do-text {
     margin-top: 20px;
-}
+  }
 
-.what-i-do h1{
+  .what-i-do h1 {
     font-size: 4.5rem;
-}
+  }
 
-.gallery {
+  .gallery {
     margin-top: 20px;
     margin-bottom: 20px;
-}  
+  }
 
-.contact-me h1{
+  .contact-me h1 {
     font-size: 4rem;
-}
+  }
 
-.center-form {
+  .center-form {
     max-width: 80%;
+  }
 }
 
-}
-
-
-@media screen and (max-width: 576px){
-
-#what-i-do-text, #what-i-do-text p {
+@media screen and (max-width: 576px) {
+  #what-i-do-text,
+  #what-i-do-text p {
     letter-spacing: normal;
     font-size: 0.8rem;
-}
+  }
 
-#what-i-do-text {
+  #what-i-do-text {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
 
-.what-i-do h1{
-    letter-spacing: 2px; 
+  .what-i-do h1 {
+    letter-spacing: 2px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     font-size: 2.5rem;
-}
+  }
 
-.gallery {
+  .gallery {
     margin-top: 20px;
     margin-bottom: 50px;
-}
+  }
 
-.sailboats, .little-boxes, .birthday, .table-deco{
+  .sailboats,
+  .little-boxes,
+  .birthday,
+  .table-deco {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.easter-candles, .cage {
+  .easter-candles,
+  .cage {
     max-height: 10%;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.candle {
-    max-height:30%;
+  .candle {
+    max-height: 30%;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-
-.nav h2 {
+  .nav h2 {
     letter-spacing: 2px;
-}
+  }
 
-#logo{
+  #logo {
     font-size: 100%;
     margin: 0;
     text-align: center;
     padding-top: 10px;
-}
+  }
 
-#menu { 
+  #menu {
     font-size: 80%;
     margin-left: auto;
-    margin-right: auto;    
-}
+    margin-right: auto;
+  }
 
-#logo, #menu {
+  #logo,
+  #menu {
     line-height: 20px;
-}
+  }
 
-#menu li {
-    margin: 10px;    
-}
+  #menu li {
+    margin: 10px;
+  }
 
-.event {
+  .event {
     margin-top: 20px;
-}
+  }
 
-.event h1 {
+  .event h1 {
     text-align: center;
-    font-size:120%;
-}
+    font-size: 120%;
+  }
 
-.welcome-text h1{
+  .welcome-text h1 {
     font-size: 2.5rem;
-}
+  }
 
-.my-photo {
+  .my-photo {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin-top: 20px;
     background-position: center;
     background-size: contain;
-}
+  }
 
-#about-me-text p {
+  #about-me-text p {
     letter-spacing: 1px;
-    font-size:0.8rem;
-}
+    font-size: 0.8rem;
+  }
 
-#about-me-text {
+  #about-me-text {
     margin-right: 10px;
     margin-left: 10px;
-    margin-top:10px;
-}
+    margin-top: 10px;
+  }
 
-.who-i-am h1{
-    letter-spacing: 2px; 
+  .who-i-am h1 {
+    letter-spacing: 2px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     font-size: 2.5rem;
     text-align: center;
-}
+  }
 
-.contact-me h1{
-    letter-spacing: 2px; 
+  .contact-me h1 {
+    letter-spacing: 2px;
     margin-top: 20px;
     font-size: 2.5rem;
-}
+  }
 
-form{
+  form {
     margin-top: 0;
     margin-bottom: 100px;
-}
+  }
 
-.center-form {
+  .center-form {
     padding-top: 5px;
     max-width: 90%;
-}
+  }
 
-h3 {
-   margin-left: 0;
-}
+  h3 {
+    margin-left: 0;
+  }
 
-.social-links li a i {
+  .social-links li a i {
     padding-left: 0;
-}
+  }
 
-#footer-details {
+  #footer-details {
     padding: 10px;
-}
+  }
 
-h3{
-  text-align: center; 
-  margin: 0px;
-  font-size: 1.5rem;
-}
- 
-.social-links {
+  h3 {
     text-align: center;
-    margin:0;
+    margin: 0px;
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    text-align: center;
+    margin: 0;
+  }
 }
-
-}
-
-
