@@ -37,6 +37,13 @@ Each image in the gallery is a link to a different category of projects in my co
 The Contact Page includes a big inviting title, "Send me a message", and a contact form over a photo of a reception table with vibrant colors.
 In the future I would like to link the form to send an email to my company's email address.
 
+
+## UX
+
+The website aims to capture the attention of potential clients, by focusing more on the images rather than the text, as the field of event decoration itself creates emotion-provoking designs and visualisation. 
+Adobe XD was used for the wireframe of the website. You can view it here: [Mockup]
+
+
 ## Technologies Used
 
 - Gitpod and GitHub
