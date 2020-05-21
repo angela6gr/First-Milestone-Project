@@ -12,7 +12,7 @@ This website was created as the first milestone project of the course after the 
 The portfolio was designed for my own personal work as an event decorator.
 The goal was to create a simple and clear page, which would be lighter and more concise than my company's website, in order to give a quicker introduction to my work.
 
-You can see the website in GitHub pages
+You can see the website in GitHub pages [here](https://github.com/angela6gr/First-Milestone-Project)
 
 ## Features
 
@@ -37,6 +37,13 @@ Each image in the gallery is a link to a different category of projects in my co
 The Contact Page includes a big inviting title, "Send me a message", and a contact form over a photo of a reception table with vibrant colors.
 In the future I would like to link the form to send an email to my company's email address.
 
+
+## UX
+
+The website aims to capture the attention of potential clients, by focusing more on the images rather than the text, as the field of event decoration itself creates emotion-provoking designs and visualisation. 
+Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
+
+
 ## Technologies Used
 
 - Gitpod and GitHub
@@ -47,8 +54,9 @@ In the future I would like to link the form to send an email to my company's ema
 
 ## Testing
 
-The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).
-The CSS code has been validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).  
+The CSS code has been validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
+The responsiveness of the website was tested using the [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 All the links in this wesite, except those in the navigation bar, will open in a new tab, so that the user doesn't leave the page when clicking them. The have been tested and they lead to the correct dectination. 
 
