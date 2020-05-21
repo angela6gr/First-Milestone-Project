@@ -12,7 +12,7 @@ This website was created as the first milestone project of the course after the 
 The portfolio was designed for my own personal work as an event decorator.
 The goal was to create a simple and clear page, which would be lighter and more concise than my company's website, in order to give a quicker introduction to my work.
 
-You can see the website in GitHub pages
+You can see the website in GitHub pages [here](https://github.com/angela6gr/First-Milestone-Project)
 
 ## Features
 
