@@ -140,14 +140,27 @@ You can see the responsive features of the website in the pictures below:
 
 ## Defects
 
--
+1. On the projects page, where images are used as links to my work, the grid doesn't  work so well between a screen width of 768px and 1300px. It has been very challenging to get it to look more beautiful. It has been an ambitious grid for me from the beginning and it's something I intend to come back and perfect as I move along in the course and my knowledge deepens.
+2. The social media icons split in to two rows between the screen widths of 576px and 768px. 
 
 ## Deployment
 
 The website was developed using Gitpod and GitHub and deployed using GitHub Pages.
 
+The process is as follows:
+1. I created a new repository by cklicking the button 'New' on the right side of the page.
 
+![image](https://user-images.githubusercontent.com/46530986/135763683-e9000ab6-d9c3-4af6-8f14-1f229610cefb.png)
 
+In order to do this by using the gitpod-full-template from the Code Institute, one has to start here https://github.com/Code-Institute-Org/gitpod-full-template and click 'Use this as template'
+
+![image](https://user-images.githubusercontent.com/46530986/135763830-38d22d1e-5b6b-4dc0-b76f-84e6b3694379.png)
+
+2. After naming the repository First Milestone Project, I clicked on 'Gitpod' to open the workspace where the code is to be written.
+
+![image](https://user-images.githubusercontent.com/46530986/135763898-feb6bc50-fb61-4825-99ba-bf9d5a4a2cca.png)
+
+3. In order to deploy the website on GitHub Pages 
 
 ## Credits
 
