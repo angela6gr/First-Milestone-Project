@@ -53,10 +53,21 @@ In the future I would like to link the form to send an email to my company's ema
 
 ## UX
 
+# Design Choices
+
 The website aims to capture the attention of potential clients, by focusing more on the images rather than the text. I made the decision to use large photos as background in all the pages, in order to both create a common element throughout the website and, most importantly, to enhance the user's visual experience by focusing on the images to provide the first impession. As the subject of the website is about event decoration, a field that itself creates emotion-provoking designs and visualisation, the large photos, especially of the bride and groom in the Welcome page, allow for a more immersive experience and a better connecton to the user.
 To further illustrate this, the links to my work in the Projects page are also images of my creations.
 
 Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
+
+# Colors
+
+As large pistures serve as the background of the pages, I chose a dark color for the navigation bar and footer, in order to contrast the lighter colors within the images. The almost black shade (Eerie Black) serves as a neutral dark and modern choise that frames the lagre images, which are full of colors themselves. 
+The font color on the navigation bar and the footer (Middle Blue Green) contrasts well with the dark background making the words easy to read, remaining at the same time discreet and fresh without distracting from the images.
+To add a pop of color to the design I chose the Fiery Rose shade for the title text of every page. I found this to combine well with the other colors with the help of the Coolors generator, as seen below.
+
+![image](https://user-images.githubusercontent.com/46530986/135755477-335b05f6-af0a-4049-8c29-d1b6379cd2cc.png)
+
 
 
 ## Technologies Used
@@ -67,6 +78,7 @@ Adobe XD was used for the wireframe of the website. You can view it here: [Mocku
 - [Font Awesome](https://fontawesome.com/)
 - [Adobe XD](https://www.adobe.com/products/xd.html)
 - [Coolors](https://coolors.co/)
+- [Responsive Website Design Tester](https://responsivedesignchecker.com/)
 
 ## Version Control
 
