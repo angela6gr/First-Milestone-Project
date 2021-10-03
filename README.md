@@ -36,7 +36,7 @@ The website consists of four pages:
 
 Each of them has a responsive design and a full size photo as a background, acting as a unifying theme throughout the website. 
 The navigation bar includes my name on the left, which acts as a link to the Welcome Page, and the names of the other three pages on the right, which also link to the respective page.
-The footer contains my slogan an the left and the links to my company's website and social media accounts on the right.
+The footer contains my slogan on the left and the links to my company's website and social media accounts on the right.
 
 The Welcome Page includes a big background image of a bride and groom, the description of my work on top and a welcome message on the bottom.
 The minimal design aims to draw the eye to the impressive photo, to create a strong emotional response and invite the user to explore further.
@@ -50,9 +50,11 @@ The Contact Page includes a big inviting title, "Send me a message", and a conta
 In the future I would like to link the form to send an email to my company's email address.
 
 
+
 ## UX
 
-The website aims to capture the attention of potential clients, by focusing more on the images rather than the text, as the field of event decoration itself creates emotion-provoking designs and visualisation. 
+The website aims to capture the attention of potential clients, by focusing more on the images rather than the text. I made the decision to use large photos as background in all the pages, in order to both create a common element throughout the website and, most importantly, to enhance the user's visual experience by focusing on the images to provide the first impession. As the subject of the website is about event decoration, a field that itself creates emotion-provoking designs and visualisation, the large photos, especially of the bride and groom in the Welcome page, allow for a more immersive experience and a better connecton to the user.
+
 Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
 
 
