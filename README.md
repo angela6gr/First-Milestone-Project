@@ -54,18 +54,19 @@ In the future I would like to link the form to send an email to my company's ema
 ## UX
 
 The website aims to capture the attention of potential clients, by focusing more on the images rather than the text. I made the decision to use large photos as background in all the pages, in order to both create a common element throughout the website and, most importantly, to enhance the user's visual experience by focusing on the images to provide the first impession. As the subject of the website is about event decoration, a field that itself creates emotion-provoking designs and visualisation, the large photos, especially of the bride and groom in the Welcome page, allow for a more immersive experience and a better connecton to the user.
+To further illustrate this, the links to my work in the Projects page are also images of my creations.
 
 Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
 
 
 ## Technologies Used
 
-- Gitpod and GitHub
-- Bootstrap
-- Google Fonts
-- Font Awesome
-- Adobe XD
-
+- [Gitpod](https://www.gitpod.io/) and [GitHub](https://github.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Adobe XD](https://www.adobe.com/products/xd.html)
+- [Coolors](https://coolors.co/)
 
 ## Version Control
 
@@ -97,7 +98,7 @@ The following websites and their tutorials were the main source of help througho
 
 I was also inspired and helped by the course material of the Code Intitute and especially the mini project creating an online resume.
 
-Special thanks to my sister Christina Kyratzidou for her time looking over my design, font and photo selection and above all to my mentor Maranatha Ilesanmi for his time, his guidance and his advice.
+Special thanks to my sister Christina Kyratzidou for her time looking over my design, font and photo selection and above all to my mentors Maranatha Ilesanmi and Malia Havlicek for their time, guidance and advice.
 
 
 
