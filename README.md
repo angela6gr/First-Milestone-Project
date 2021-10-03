@@ -24,7 +24,15 @@ The website consists of four pages:
 
 - the About-me Page
 - the Projects Page
+
+![image](https://user-images.githubusercontent.com/46530986/135753257-2b5613cd-21e4-45c2-a1dd-90a31e82df33.png)
+
+
 - the Contact Page
+
+![image](https://user-images.githubusercontent.com/46530986/135753274-32c7bbc9-62a8-4c8c-a146-828006380b8f.png)
+
+
 
 Each of them has a responsive design and a full size photo as a background, acting as a unifying theme throughout the website. 
 The navigation bar includes my name on the left, which acts as a link to the Welcome Page, and the names of the other three pages on the right, which also link to the respective page.
