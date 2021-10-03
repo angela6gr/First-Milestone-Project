@@ -64,6 +64,13 @@ Adobe XD was used for the wireframe of the website. You can view it here: [Mocku
 - Font Awesome
 - Adobe XD
 
+
+## Version Control
+
+Github was used to track code changes. If you look at my commit history you will see a 15 month gap between May 2020 and September 2021. This is because of life circumstances gracing me with the responsibility of bringing a new life into the world during a pandemic and taking a leave of absence from the course. Luckily due all my changes being in the same repository, I could easily jump right back into things and read my commit history to refresh myself with the changes I had made over time. 
+
+
+
 ## Testing
 
 The HTML code has been validated using the [W3C Mark-up Validation Service](https://validator.w3.org/).  
