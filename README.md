@@ -83,9 +83,6 @@ To add a pop of color to the design I chose the Fiery Rose shade for the title t
 
 ![image](https://user-images.githubusercontent.com/46530986/135755477-335b05f6-af0a-4049-8c29-d1b6379cd2cc.png)
 
-# Fonts
-
-
 
 ## Technologies Used
 
@@ -110,6 +107,8 @@ The CSS code has been validated using the [W3C CSS Validation Service](https://j
 The responsiveness of the website was tested using the [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 All the links in this wesite, except those in the navigation bar, will open in a new tab, so that the user doesn't leave the page when clicking them. The have been tested and they lead to the correct dectination. 
+
+The website has been tested on different browsers (Chrome, Edge, Safari, FireFox) and on multiple device screen sizes to make sure it works properly and it is responsive.
 
 You can see the responsive features of the website in the pictures below:
 
@@ -160,7 +159,12 @@ In order to do this by using the gitpod-full-template from the Code Institute, o
 
 ![image](https://user-images.githubusercontent.com/46530986/135763898-feb6bc50-fb61-4825-99ba-bf9d5a4a2cca.png)
 
-3. In order to deploy the website on GitHub Pages 
+3. In order to deploy the website on GitHub Pages, I clicked on 'Settings' under the repository name and then clicked 'Pages' on the left sidebar. 
+
+![image](https://user-images.githubusercontent.com/46530986/135764733-9b35e649-f76c-4cdc-b7cf-ec0f54e9df4e.png)
+![image](https://user-images.githubusercontent.com/46530986/135764745-6a5d6138-42fd-4045-9b1a-d773cc4cc2d2.png)
+
+4. 
 
 ## Credits
 
