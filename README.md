@@ -146,6 +146,9 @@ You can see the responsive features of the website in the pictures below:
 
 The website was developed using Gitpod and GitHub and deployed using GitHub Pages.
 
+
+
+
 ## Credits
 
 All the photos used in the website are either taken by my or used with the permission of the photographer.
