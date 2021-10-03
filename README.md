@@ -18,6 +18,10 @@ You can see the website in GitHub pages [here](https://github.com/angela6gr/Firs
 
 The website consists of four pages:
 - the Welcome Page
+
+![image](https://user-images.githubusercontent.com/46530986/135752972-746944a6-dfa3-4ff4-970e-4302eab126f2.png)
+
+
 - the About-me Page
 - the Projects Page
 - the Contact Page
