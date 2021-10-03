@@ -70,7 +70,7 @@ In the future I would like to work on the following for my website:
 
 ## UX
 
-# Design Choices
+### Design Choices
 
 The website aims to capture the attention of potential clients, by focusing more on the images rather than the text. I made the decision to use large photos as background in all the pages, in order to both create a common element throughout the website and, most importantly, to enhance the user's visual experience by focusing on the images to provide the first impession. As the subject of the website is about event decoration, a field that itself creates emotion-provoking designs and visualisation, the large photos, especially of the bride and groom in the Welcome page, allow for a more immersive experience and a better connecton to the user.
 To further illustrate this, the links to my work in the Projects page are also images of my creations. 
@@ -79,7 +79,7 @@ I added a maximum width of 1400px to the website and a background color for larg
 
 Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
 
-# Colors
+### Colors
 
 As large pistures serve as the background of the pages, I chose a dark color for the navigation bar and footer, in order to contrast the lighter colors within the images. The almost black shade (Eerie Black) serves as a neutral dark and modern choise that frames the lagre images, which are full of colors themselves. 
 The font color on the navigation bar and the footer (Middle Blue Green) contrasts well with the dark background making the words easy to read, remaining at the same time discreet and fresh without distracting from the images.
@@ -87,7 +87,7 @@ To add a pop of color to the design I chose the Fiery Rose shade for the title t
 
 ![image](https://user-images.githubusercontent.com/46530986/135755477-335b05f6-af0a-4049-8c29-d1b6379cd2cc.png)
 
-# Fonts
+### Fonts
 
 I chose the font 'Montserrat Alternates' for the navigation bar and the text throughout the site. It is a clean, modern font that looks very original, because it is not used that often, creating a unique impression to the user. To add a more personal touch, as my business is all about the client's personal and unique style, I decided to use the font  Zeyada, that looks like hand-writing, for the title of every page and the slogan in the footer in order to give each page a more free and happy effect.
 
