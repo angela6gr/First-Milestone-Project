@@ -2,7 +2,7 @@
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
-  
+
 }
 
 /* ------------------------special paddings/margins/text*/
@@ -27,6 +27,7 @@ body {
 .row {
   margin: 0;
 }
+
 /* ----------------------------------Navigation*/
 
 .nav {
@@ -192,12 +193,13 @@ ul {
   width: 60%;
   font-size: 500%;
   text-align: center;
-  text-shadow:  0 0 20px #ffffff;
+  text-shadow: 0 0 20px #ffffff;
 }
 
 /*----------------------------------------Projects page*/
 
-.body-copy p, .body-copy {
+.body-copy p,
+.body-copy {
   font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   color: #161819;
@@ -226,7 +228,7 @@ ul {
   margin-bottom: 30px;
   text-align: center;
   font-size: 5.5rem;
-  text-shadow:  0 0 20px #ffffff;
+  text-shadow: 0 0 20px #ffffff;
 }
 
 /*---------------------------------------------Gallery*/
@@ -302,7 +304,7 @@ ul {
   margin-top: 40px;
   font-size: 8vw;
   text-align: center;
-  text-shadow:  0 0 20px #ffffff;
+  text-shadow: 0 0 20px #ffffff;
 }
 
 /*---------------------------------------Form Styling*/
@@ -368,9 +370,7 @@ footer {
 }
 
 .social-links li a:hover i {
-  transform: rotate(
--20deg
-) scale(1.1);
+  transform: rotate(-20deg) scale(1.1);
   color: #ef626c;
 }
 
@@ -562,7 +562,7 @@ footer {
   }
 
   .social-links {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .my-photo {
@@ -615,6 +615,7 @@ footer {
 /* ----------------------------CSS overrides for phones */
 
 @media screen and (max-width: 576px) {
+
   #what-i-do-text,
   #what-i-do-text p {
     letter-spacing: normal;
