@@ -143,7 +143,7 @@ ul {
   color: #ef626c;
   font-family: "Zeyada", sans-serif;
   font-size: 5.5rem;
-  text-shadow: 0 0 5px #161819;
+  text-shadow: 0 0 20px #ffffff;
   text-align: center;
 }
 
@@ -189,18 +189,28 @@ ul {
   width: 60%;
   font-size: 500%;
   text-align: center;
-  text-shadow: 0 0 5px #161819;
+  text-shadow:  0 0 20px #ffffff;
 }
 
 /*----------------------------------------Projects page*/
-
+/*
 #what-i-do-text,
 #what-i-do-text p {
   font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   color: #161819;
   text-align: center;
+}*/
+
+.body-copy p, .body-copy {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  color: #161819;
+  font-size: 18px;
+  line-height: 29px;
 }
+
+
 
 .projects {
   margin-bottom: 50px;
@@ -221,7 +231,7 @@ ul {
   margin-bottom: 30px;
   text-align: center;
   font-size: 5.5rem;
-  text-shadow: 0 0 5px #161819;
+  text-shadow:  0 0 20px #ffffff;
 }
 
 /*---------------------------------------------Gallery*/
@@ -297,7 +307,7 @@ ul {
   margin-top: 40px;
   font-size: 8vw;
   text-align: center;
-  text-shadow: 0 0 5px #161819;
+  text-shadow:  0 0 20px #ffffff;
 }
 
 /*---------------------------------------Form Styling*/
