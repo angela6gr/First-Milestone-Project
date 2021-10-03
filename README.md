@@ -23,6 +23,11 @@ The website consists of four pages:
 
 
 - the About-me Page
+
+![image](https://user-images.githubusercontent.com/46530986/135756083-8053d5c2-ecc8-4139-9477-f17f2e59108e.png)
+
+
+
 - the Projects Page
 
 ![image](https://user-images.githubusercontent.com/46530986/135753257-2b5613cd-21e4-45c2-a1dd-90a31e82df33.png)
