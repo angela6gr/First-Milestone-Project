@@ -83,6 +83,9 @@ To add a pop of color to the design I chose the Fiery Rose shade for the title t
 
 ![image](https://user-images.githubusercontent.com/46530986/135755477-335b05f6-af0a-4049-8c29-d1b6379cd2cc.png)
 
+# Fonts
+
+I chose the font 'Montserrat Alternates' for the navigation bar and the text throughout the site. It is a clean, modern font that looks very original, because it is not used that often, creating a unique impression to the user. To add a more personal touch, as my business is all about the client's personal and unique style, I decided to use the font  Zeyada, that looks like hand-writing, for the title of every page and the slogan in the footer in order to give each page a more free and happy effect.
 
 ## Technologies Used
 
@@ -164,7 +167,10 @@ In order to do this by using the gitpod-full-template from the Code Institute, o
 ![image](https://user-images.githubusercontent.com/46530986/135764733-9b35e649-f76c-4cdc-b7cf-ec0f54e9df4e.png)
 ![image](https://user-images.githubusercontent.com/46530986/135764745-6a5d6138-42fd-4045-9b1a-d773cc4cc2d2.png)
 
-4. 
+4. To see the published site I clicked the site's URL under GitHub Pages:
+
+![image](https://user-images.githubusercontent.com/46530986/135764810-05095bcf-15ed-4944-9737-880f0f05aae8.png)
+
 
 ## Credits
 
@@ -176,9 +182,9 @@ The following websites and their tutorials were the main source of help througho
 - [CSS-Tricks](https://css-tricks.com/)
 - [Stack Overflow](https://stackoverflow.com/)
 
-I was also inspired and helped by the course material of the Code Intitute and especially the mini project creating an online resume.
+I was also inspired and helped enormously by the course material of the Code Intitute and especially the mini project creating an online resume.
 
-Special thanks to my sister Christina Kyratzidou for her time looking over my design, font and photo selection and above all to my mentors Maranatha Ilesanmi and Malia Havlicek for their time, guidance and advice.
+Special thanks to my sister Christina Kyratzidou for her time looking over my design, font and photo selection and, above all, to my mentors Maranatha Ilesanmi and Malia Havlicek for their time, guidance and advice.
 
 
 
