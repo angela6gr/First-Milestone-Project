@@ -96,6 +96,7 @@ I chose the font 'Montserrat Alternates' for the navigation bar and the text thr
 - [Adobe XD](https://www.adobe.com/products/xd.html)
 - [Coolors](https://coolors.co/)
 - [Responsive Website Design Tester](https://responsivedesignchecker.com/)
+- [Favicon.io](https://favicon.io/favicon-converter/)
 
 ## Version Control
 
@@ -176,6 +177,8 @@ In order to do this by using the gitpod-full-template from the Code Institute, o
 
 All the photos used in the website are either taken by my or used with the permission of the photographer.
 All the text was written by me. 
+
+The flower image used for the favicon was found in [Pixabay](https://pixabay.com/images/search/petals/).
 
 The following websites and their tutorials were the main source of help throughout the coding of my page:
 - [W3Schools Online Web Tutorials](https://www.w3schools.com/)
