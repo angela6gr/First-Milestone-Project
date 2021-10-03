@@ -1,7 +1,14 @@
- # **Angela Kyratzidou**
- # **Event Decoration & Handmade Creations**
- # **Portfolio**
+# Table of Contents
 
+ 
+# PROJECT NAME
+ 
+## *Event Decoration & Handmade Creations - Portfolio*
+
+
+# AUTHOR
+
+## *Angeliki Kyratzidou*
 
  **Code Institute - Fullstack Web Developer Course**
 
@@ -11,6 +18,7 @@ This website was created as the first milestone project of the course after the 
 
 The portfolio was designed for my own personal work as an event decorator.
 The goal was to create a simple and clear page, which would be lighter and more concise than my company's website, in order to give a quicker introduction to my work.
+I wanted to create a memorable page, which is vilually appealing and inviting and captures the attention of the users, making them curious about my work.
 
 You can see the website in GitHub pages [here](https://github.com/angela6gr/First-Milestone-Project)
 
@@ -61,7 +69,9 @@ In the future I would like to link the form to send an email to my company's ema
 # Design Choices
 
 The website aims to capture the attention of potential clients, by focusing more on the images rather than the text. I made the decision to use large photos as background in all the pages, in order to both create a common element throughout the website and, most importantly, to enhance the user's visual experience by focusing on the images to provide the first impession. As the subject of the website is about event decoration, a field that itself creates emotion-provoking designs and visualisation, the large photos, especially of the bride and groom in the Welcome page, allow for a more immersive experience and a better connecton to the user.
-To further illustrate this, the links to my work in the Projects page are also images of my creations.
+To further illustrate this, the links to my work in the Projects page are also images of my creations. 
+
+I added a maximum width of 1400px to the website and a background color for larger screens, as the images do not look as nice on such large screens.
 
 Adobe XD was used for the wireframe of the website. You can view it here: [Mockup](https://xd.adobe.com/view/bf6598a4-f4f3-445b-5cd0-cc320a72cd5c-c954/)
 
@@ -72,6 +82,8 @@ The font color on the navigation bar and the footer (Middle Blue Green) contrast
 To add a pop of color to the design I chose the Fiery Rose shade for the title text of every page. I found this to combine well with the other colors with the help of the Coolors generator, as seen below.
 
 ![image](https://user-images.githubusercontent.com/46530986/135755477-335b05f6-af0a-4049-8c29-d1b6379cd2cc.png)
+
+# Fonts
 
 
 
@@ -98,6 +110,37 @@ The CSS code has been validated using the [W3C CSS Validation Service](https://j
 The responsiveness of the website was tested using the [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 All the links in this wesite, except those in the navigation bar, will open in a new tab, so that the user doesn't leave the page when clicking them. The have been tested and they lead to the correct dectination. 
+
+You can see the responsive features of the website in the pictures below:
+
+-1600x900px
+
+![image](https://user-images.githubusercontent.com/46530986/135756854-7e960238-33bc-45ea-b15e-3552d7f60ee0.png)
+
+-1366x768px
+
+![image](https://user-images.githubusercontent.com/46530986/135756999-a2658e0e-c0d3-40bc-a8e8-d8d9318e6fc1.png)
+
+![image](https://user-images.githubusercontent.com/46530986/135757039-0034fa7b-a126-43df-bf73-d2aae8aaf460.png)
+
+-800x1200px
+
+![image](https://user-images.githubusercontent.com/46530986/135757203-24d58eb9-d393-4465-9c02-db188503be63.png)
+
+![image](https://user-images.githubusercontent.com/46530986/135757238-549a98a9-0307-4bef-b87c-905a67bfa7fd.png)
+
+-375x667px
+
+![image](https://user-images.githubusercontent.com/46530986/135757268-271c047d-d537-4c57-97e4-2e495ca6e98e.png)
+
+![image](https://user-images.githubusercontent.com/46530986/135757279-b4f73c33-f569-4802-ad8d-5c936823fd85.png)
+
+![image](https://user-images.githubusercontent.com/46530986/135757303-78cb7d41-a86c-4f1c-8c88-bdf3fee4e7f8.png)
+
+
+## Defects
+
+-
 
 ## Deployment
 
