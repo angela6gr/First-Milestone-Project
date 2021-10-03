@@ -350,14 +350,25 @@ footer {
 }
 
 .social-links {
-  margin-right: 50px;
+  margin-right: 20px;
   text-align: right;
 }
 
 .social-links li a i {
   padding-left: 15px;
   color: #84dccf;
+  top: 7px;
+  position: relative;
+  margin-right: 1.0rem;
 }
+
+.social-links li a:hover i {
+  transform: rotate(
+-20deg
+) scale(1.1);
+  color: #ef626c;
+}
+
 
 #footer-details {
   padding-top: 20px;
