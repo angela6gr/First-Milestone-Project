@@ -17,8 +17,11 @@ h4 {
 html,
 body {
   height: 100%;
-  margin: 0;
-  overflow-x:hidden;
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-width: 1400px;
+  background: #84dccf;
+
 }
 
 .row {
@@ -193,14 +196,6 @@ ul {
 }
 
 /*----------------------------------------Projects page*/
-/*
-#what-i-do-text,
-#what-i-do-text p {
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 2px;
-  color: #161819;
-  text-align: center;
-}*/
 
 .body-copy p, .body-copy {
   font-family: "Raleway", sans-serif;
@@ -354,9 +349,9 @@ h3 {
 footer {
   background-color: #161819;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
+  max-width: 1400px;
 }
 
 .social-links {
@@ -385,6 +380,8 @@ footer {
 }
 
 /* ---------------------------------------------------------Media Queries*/
+
+/*----------------------- CSS Overrides for Laptops */
 
 @media screen and (max-width: 1280px) {
   #menu {
@@ -438,6 +435,8 @@ footer {
     padding-bottom: 20px;
   }
 }
+
+/*------------------- CSS Overrides for Landscape Tablets */
 
 @media screen and (max-width: 992px) {
   ul {
@@ -525,6 +524,8 @@ footer {
   }
 }
 
+/* -------------------CSS overrides for portrait tablets */
+
 @media screen and (max-width: 768px) {
   #logo {
     font-size: 150%;
@@ -610,6 +611,8 @@ footer {
     max-width: 80%;
   }
 }
+
+/* ----------------------------CSS overrides for phones */
 
 @media screen and (max-width: 576px) {
   #what-i-do-text,
