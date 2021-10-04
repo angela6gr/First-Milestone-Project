@@ -565,6 +565,11 @@ footer {
     margin-right: 10px;
   }
 
+
+.hero-image {
+  height: calc(100%-54px);
+}
+
   .my-photo {
     height: 150px;
     width: 150px;
@@ -615,8 +620,8 @@ footer {
     padding-left: 0;
   }
 
- .list-inline-item {
-   margin: 0;
+ .list-inline-item, .list-inline-item:not(:last-child) {
+    margin: 0;
  }
 
   #footer-details {
@@ -638,6 +643,10 @@ footer {
 /* ----------------------------CSS overrides for phones */
 
 @media screen and (max-width: 576px) {
+
+  .hero-image {
+    height: calc(100%-84px);
+  }
 
   #what-i-do-text,
   #what-i-do-text p {
